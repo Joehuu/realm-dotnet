@@ -1,17 +1,17 @@
 ## 11.6.1 (2023-11-17)
+## 11.5.0 (2023-09-15)
+
+### Enhancements
+* None
 
 ### Fixed
-* Fixed FLX subscriptions not being sent to the server if the session was interrupted during bootstrapping. (Core 13.23.3)
-* Fixed FLX subscriptions not being sent to the server if an upload message was sent immediately after a subscription was committed but before the sync client checks for new subscriptions. (Core 13.23.3)
-* Fixed application crash with 'KeyNotFound' exception when subscriptions are marked complete after a client reset. (Core 13.23.3)
-* A crash at a very specific time during a DiscardLocal client reset on a FLX Realm could leave subscriptions in an invalid state. (Core 13.23.4)
-* Fixed an error "Invalid schema change (UPLOAD): cannot process AddColumn instruction for non-existent table" when using automatic client reset with recovery in dev mode to recover schema changes made locally while offline. (Core 13.23.4)
+* None
 
 ### Compatibility
 * Realm Studio: 13.0.0 or later.
 
 ### Internal
-* Using Core 13.23.4.
+* Using Core x.y.z.
 
 ## 11.6.0 (2023-11-03)
 
@@ -46,7 +46,7 @@
 * Realm Studio: 13.0.0 or later.
 
 ### Internal
-* Using Core 13.23.1.
+* Using Core 13.20.1.
 
 ## 11.5.0 (2023-09-15)
 
